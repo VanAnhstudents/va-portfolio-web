@@ -1,0 +1,94 @@
+{
+    "hero": {
+        "greeting": "Hi, I'm",
+        "name": "Nguyen Van Anh",
+        "description": "I constantly explore and optimize coding solutions to deliver unique, effective website experiences for everyone.",
+        "viewProjects": "View Projects",
+        "contactMe": "Contact Me"
+    },
+
+    "navigation": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "experience": "Experience",
+        "projects": "Projects",
+        "contact": "Contact",
+        "resume": "Resume"
+    },
+
+    "about": {
+        "title": "About Me",
+        "subtitle": "My background",
+        "name":"Nguyen Van Anh",
+        "address": "Thanh Xuan, Ha Noi, Viet Nam",
+        "description": "I aspire to become a professional backend developer using JavaScript and Node.js-related frameworks such as Socket.io, Express.js, and Nest.js. In my free time, I enjoy exploring React and UI/UX design.",
+        "other_description": "Additionally, I dedicate my weekends to playing volleyball with friends — a sport I am truly passionate about.",
+        "fullname": "Full name",
+        "location": "Location",
+        "email": "Email",
+        "downloadResume": "Download Resume"
+    },
+    
+    "skills": {
+        "title": "My Skills",
+        "subtitle": "Technologies I work with"
+    },
+
+    "experience": {
+        "title": "Work Experience",
+        "subtitle": "My professional journey",
+        "seeMore": "See more",
+        "seeLess": "See less",
+        "current": "Now"
+    },
+
+    "project": {
+        "title": "Featured Projects",
+        "subtitle": "Some of my recent work",
+        "liveDemo": "Live Demo"
+    },
+
+    "testimonials": {
+        "title": "Testimonials",
+        "subtitle": "What people say about me!",
+        "viewReview": "View full review"
+    },
+
+    "contact": {
+        "title": "Get In Touch",
+        "subtitle": "Let's work together",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "placeholder": {
+            "name": "Enter your name",
+            "email": "Enter your email",
+            "message": "Type your message..."
+            },
+            "sendMessage": "Send Message",
+            "successMessage": "Message sent successfully!",
+            "errorMessage": "Failed to send message. Please try again."
+        },
+        "info": {
+            "email": "Email",
+            "phone": "Phone",
+            "github": "GitHub"
+        }
+    },
+
+    "common": {
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success",
+        "close": "Close",
+        "save": "Save",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "language": "Language",
+        "theme": "Theme",
+        "lightMode": "Light",
+        "darkMode": "Dark"
+    }
+}

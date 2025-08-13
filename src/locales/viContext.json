@@ -1,0 +1,94 @@
+{
+    "hero": {
+        "greeting": "Xin chào mọi người, tôi là",
+        "name": "Nguyễn Văn Anh",
+        "description": "Tôi luôn luôn tìm hiểu và tối ưu giải pháp thiết kế mã code để mang đến trải nghiệm website độc đáo, hiệu quả cho mọi người.",
+        "viewProjects": "Xem dự án",
+        "contactMe": "Liên hệ tôi"
+    },
+
+    "navigation": {
+        "home": "Trang chủ",
+        "about": "Về tôi",
+        "skills": "Kỹ năng & Công cụ",
+        "experience": "Kinh nghiệm",
+        "projects": "Dự án",
+        "contact": "Liên hệ",
+        "resume": "Hồ sơ"
+    },
+
+    "about": {
+        "title": "Về bản thân tôi",
+        "subtitle": "Lý lịch của tôi",
+        "name":"Nguyễn Văn Anh",
+        "address": "Thanh Xuân, Hà Nội, Việt Nam",
+        "description": "Mong muốn trở thành một backend developer chuyên nghiệp sử dụng JavaScript và các framework liên quan đến Node.js như Socket.io, Express.js và Nest.js. Trong thời gian rảnh, tôi thích tìm hiểu thêm về React và UI/UX.",
+        "other_description": "Ngoài ra, mỗi cuối tuần tôi đều dành thời gian cùng bạn bè chơi bóng chuyền — bộ môn thể thao mà tôi rất đam mê.",
+        "fullname": "Họ và tên",
+        "location": "Địa chỉ",
+        "email": "Email",
+        "downloadResume": "Tải CV"
+    },
+
+    "skills": {
+        "title": "Kỹ năng của tôi",
+        "subtitle": "Các công nghệ tôi làm việc cùng"
+    },
+
+    "experience": {
+        "title": "Kinh nghiệm làm việc",
+        "subtitle": "Hành trình nghề nghiệp của tôi",
+        "seeMore": "Xem thêm",
+        "seeLess": "Thu gọn",
+        "current": "Hiện tại"
+    },
+
+    "project": {
+        "title": "Dự án nổi bật",
+        "subtitle": "Một số dự án gần đây",
+        "liveDemo": "Xem trực tuyến"
+    },
+
+    "testimonials": {
+        "title": "Đánh giá",
+        "subtitle": "Những gì mọi người nói về tôi!",
+        "viewReview": "Xem bài đánh giá"
+    },
+
+    "contact": {
+        "title": "Liên hệ",
+        "subtitle": "Hãy cùng làm việc với nhau",
+        "form": {
+            "name": "Tên",
+            "email": "Email",
+            "message": "Tin nhắn",
+            "placeholder": {
+            "name": "Nhập tên của bạn",
+            "email": "Nhập email của bạn",
+            "message": "Nhập tin nhắn của bạn..."
+            },
+            "sendMessage": "Gửi tin nhắn",
+            "successMessage": "Gửi tin nhắn thành công!",
+            "errorMessage": "Gửi tin nhắn thất bại. Vui lòng thử lại"
+        },
+        "info": {
+            "email": "Email",
+            "phone": "Điện thoại",
+            "github": "GitHub"
+        }
+    },
+
+    "common": {
+        "loading": "Đang tải...",
+        "error": "Lỗi",
+        "success": "Thành công",
+        "close": "Đóng",
+        "save": "Lưu",
+        "cancel": "Hủy",
+        "confirm": "Xác nhận",
+        "language": "Ngôn ngữ",
+        "theme": "Giao diện",
+        "lightMode": "Sáng",
+        "darkMode": "Tối"
+    }
+}
