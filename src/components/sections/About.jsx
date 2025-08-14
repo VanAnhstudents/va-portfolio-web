@@ -12,12 +12,12 @@ const About = () => {
           {/* Left side - Text content */}
           <div className="space-y-6">
             <div>
-              <p className="text-sm font-medium text-blue-600 dark:text-blue-400 mb-2">
-                {t("about.subtitle")}
-              </p>
-              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">
+              <h2 className="text-center text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">
                 {t("about.title")}
               </h2>
+              <p className="text-center text-sm font-medium text-blue-600 dark:text-blue-400 mb-2">
+                {t("about.subtitle")}
+              </p>
             </div>
 
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
@@ -64,13 +64,13 @@ const About = () => {
           </div>
 
           {/* Right side - Avatar Image */}
-          <div className="lg:order-last">
+          <div className="lg:order-last border">
             <div className="relative w-full h-[500px]">
               <div className="absolute inset-0 w-[584px] max-w-full mx-auto h-[500px] rounded-lg overflow-hidden shadow-lg">
                 <img
                   src="/assets/images/avatar.jpg"
                   alt="Profile Avatar"
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-cover object-top border"
                   style={{
                     minWidth: "584px",
                     minHeight: "500px",

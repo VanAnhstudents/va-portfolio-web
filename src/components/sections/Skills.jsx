@@ -12,17 +12,17 @@ const Skills = () => {
           {/* Left side - Text content */}
           <div className="space-y-6">
             <div>
-              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">
+              <h2 className="text-center text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">
                 {t("skills.title")}
               </h2>
-              <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
+              <p className="text-center text-sm font-medium text-blue-600 dark:text-blue-400 leading-relaxed">
                 {t("skills.subtitle")}
               </p>
             </div>
           </div>
 
           {/* Right side - Skills grid */}
-          <div className="lg:order-last">
+          <div className="lg:order-last flex-1">
             <div className="grid grid-cols-2 gap-4">
               {skills.map((skill, index) => (
                 <div
