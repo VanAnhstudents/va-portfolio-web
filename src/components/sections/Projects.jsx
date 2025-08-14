@@ -13,11 +13,13 @@ const Projects = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">{t("project.title")}</h2>
-          <p className="text-xl text-gray-600 dark:text-gray-400">
+          <div className="inline-block px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-blue-600 dark:text-blue-400 text-sm font-medium mb-4">
             {t("project.subtitle")}
-          </p>
-          <div className="w-16 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto"></div>
+          </div>
+          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
+            {t("project.title")}
+          </h2>
+          <div className="w-16 h-1 bg-gradient-to-r from-blue-500 to-blue-600 mx-auto"></div>
         </div>
 
         {/* Projects Grid */}
@@ -41,7 +43,7 @@ const Projects = () => {
                 {/* Technologies */}
                 <div className="mb-4">
                   <h4 className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
-                    {language === "en" ? "Technologies" : "Công nghệ"}
+                    {t("project.tech")}
                   </h4>
                   <div className="flex flex-wrap gap-2">
                     {project.technologies[language].map((tech, index) => (

@@ -26,13 +26,14 @@
         "other_description": "Additionally, I dedicate my weekends to playing volleyball with friends — a sport I am truly passionate about.",
         "fullname": "Full name",
         "location": "Location",
-        "email": "Email",
-        "downloadResume": "Download Resume"
+        "downloadResume": "Download Resume",
+        "status": "Available for work"
     },
     
     "skills": {
         "title": "My Skills",
-        "subtitle": "Technologies I work with"
+        "subtitle": "Technologies I work with",
+        "description": "Here are the technologies I'm proficient in"
     },
 
     "experience": {
@@ -46,7 +47,11 @@
     "project": {
         "title": "Featured Projects",
         "subtitle": "Some of my recent work",
-        "liveDemo": "Live Demo"
+        "liveDemo": "Live Demo",
+        "projects": "projects",
+        "noProjectsForSkill": "No projects found for this skill",
+        "using": "All projects using",
+        "tech": "Technologies"
     },
 
     "testimonials": {

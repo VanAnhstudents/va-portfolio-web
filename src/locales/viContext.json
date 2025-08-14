@@ -26,13 +26,14 @@
         "other_description": "Ngoài ra, mỗi cuối tuần tôi đều dành thời gian cùng bạn bè chơi bóng chuyền — bộ môn thể thao mà tôi rất đam mê.",
         "fullname": "Họ và tên",
         "location": "Địa chỉ",
-        "email": "Email",
-        "downloadResume": "Tải CV"
+        "downloadResume": "Tải CV",
+        "status": "Sẵn sàng kết nối công việc"
     },
 
     "skills": {
         "title": "Kỹ năng của tôi",
-        "subtitle": "Các công nghệ tôi làm việc cùng"
+        "subtitle": "Các công nghệ tôi làm việc cùng",
+        "description": "Đây là những ngôn ngữ tôi thành thạo"
     },
 
     "experience": {
@@ -46,7 +47,11 @@
     "project": {
         "title": "Dự án nổi bật",
         "subtitle": "Một số dự án gần đây",
-        "liveDemo": "Xem trực tuyến"
+        "liveDemo": "Xem trực tuyến",
+        "projects": "dự án",
+        "noProjectsForSkill": "Không có dự án nào cho ngôn ngữ này",
+        "using": "Toàn bộ dự án sử dụng",
+        "tech": "Công nghệ"
     },
 
     "testimonials": {

@@ -112,18 +112,20 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-white dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Title and subtitle section - matching About.jsx style */}
+        <div className="text-center mb-16">
+          <div className="inline-block px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-blue-600 dark:text-blue-400 text-sm font-medium mb-4">
+            {t("contact.subtitle")}
+          </div>
+          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
+            {t("contact.title")}
+          </h2>
+          <div className="w-16 h-1 bg-gradient-to-r from-blue-500 to-blue-600 mx-auto"></div>
+        </div>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Left side - Form */}
           <div className="space-y-8">
-            <div>
-              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">
-                {t("contact.title")}
-              </h2>
-              <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-                {t("contact.subtitle")}
-              </p>
-            </div>
-
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Name Input */}
               <div>

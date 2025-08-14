@@ -10,8 +10,8 @@ export const projects = [
             vi: "Một trang web portfolio hiện đại, được xây dựng bằng React và Tailwind CSS. Trang có giao diện người dùng có hiệu ứng động, phần trưng bày dự án, và tích hợp liền mạch với GitHub để lấy dữ liệu dự án một cách động."
         },
         technologies: {
-            en: ["React", "Tailwind CSS"],
-            vi: ["React", "Tailwind CSS"]
+            en: ["React", "Tailwind CSS", "JavaScript"],
+            vi: ["React", "Tailwind CSS", "JavaScript"]
         },
         github: "#",
         demo: "#"
@@ -27,8 +27,8 @@ export const projects = [
             vi: "Một API RESTful hoàn chỉnh cho cửa hàng thời trang trực tuyến, được xây dựng bằng Node.js, Express.js và MongoDB. Tính năng bao gồm xác thực người dùng, quản lý sản phẩm, giỏ hàng, xử lý đơn hàng và tích hợp thanh toán. Tuân thủ các phương pháp tốt nhất về thiết kế REST API và bao gồm tài liệu đầy đủ."
         },
         technologies: {
-            en: ["Node.js", "Express.js", "MySQL", "JWT Authentication", "Stripe API"],
-            vi: ["Node.js", "Express.js", "MySQL", "Xác thực JWT", "Stripe API"]
+            en: ["NodeJS", "ExpressJS", "MySQL", "JWT Authentication", "Stripe API"],
+            vi: ["NodeJS", "ExpressJS", "MySQL", "Xác thực JWT", "Stripe API"]
         },
         github: "#",
         demo: "#"

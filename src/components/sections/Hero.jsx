@@ -57,20 +57,24 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right side - Video/Image placeholder */}
+          {/* Right side - Profile image with modern design */}
           <div className="lg:order-last">
             <div className="relative">
-              <div className="w-full h-96 lg:h-[500px] bg-gray-400 dark:bg-gray-600 rounded-lg flex items-center justify-center">
-                {/* Play button overlay */}
-                <button className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition-transform">
-                  <svg
-                    className="w-6 h-6 text-gray-900 ml-1"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M8 5v10l8-5-8-5z" />
-                  </svg>
-                </button>
+              <div className="w-full h-96 lg:h-[500px] relative">
+                {/* Animated border */}
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-1">
+                  <div className="w-full h-full bg-black rounded-2xl overflow-hidden">
+                    <img
+                      src="/assets/images/avatar.jpg"
+                      alt="Profile Avatar"
+                      className="w-full h-full object-cover object-top"
+                    />
+                  </div>
+                </div>
+
+                {/* Floating elements */}
+                <div className="absolute -top-4 -right-4 w-8 h-8 bg-purple-500 rounded-full animate-bounce"></div>
+                <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-pink-500 rounded-full animate-bounce delay-150"></div>
               </div>
             </div>
           </div>
