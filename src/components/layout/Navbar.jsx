@@ -11,6 +11,8 @@ const Navbar = () => {
     "about",
     "skills",
     "experience",
+    "projects",
+    "testimonials",
     "contact",
   ]);
 
@@ -20,6 +22,7 @@ const Navbar = () => {
     { id: "skills", label: t("navigation.skills") },
     { id: "experience", label: t("navigation.experience") },
     { id: "projects", label: t("navigation.projects") },
+    { id: "testimonials", label: t("navigation.testimonials") },
     { id: "contact", label: t("navigation.contact") },
   ];
 
@@ -38,30 +41,22 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="flex justify-between items-center h-16">
           {/* Logo with gradient border */}
-          <div className="flex-shrink-0 relative">
+          <div className="flex-shrink-0 relative rounded-full">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg blur-sm opacity-20"></div>
             <h1 className="relative text-2xl font-bold text-gray-900 dark:text-white px-3 py-1 rounded-lg bg-gradient-to-r from-blue-50/50 to-indigo-50/50 dark:from-blue-900/30 dark:to-indigo-900/30 border border-blue-100/50 dark:border-blue-800/50">
               Vanh Dev
             </h1>
           </div>
 
-          {/* Navigation Items with enhanced styling */}
+          {/* Navigation Items with only hover effects */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-2 bg-gray-50/50 dark:bg-gray-800/50 rounded-full px-4 py-2 border border-gray-200/50 dark:border-gray-700/50 backdrop-blur-sm">
               {navItems.map((item) => (
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className={`relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 ${
-                    activeSection === item.id
-                      ? "text-white bg-gradient-to-r from-blue-500 to-blue-600 shadow-lg shadow-blue-500/25 transform scale-105"
-                      : "text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50/50 dark:hover:bg-blue-900/20 hover:scale-105"
-                  }`}
+                  className="px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50/50 dark:hover:bg-blue-900/20 hover:scale-105"
                 >
-                  {/* Active indicator dot */}
-                  {activeSection === item.id && (
-                    <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 w-1 h-1 bg-white rounded-full"></div>
-                  )}
                   {item.label}
                 </button>
               ))}

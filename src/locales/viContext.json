@@ -10,9 +10,10 @@
     "navigation": {
         "home": "Trang chủ",
         "about": "Về tôi",
-        "skills": "Kỹ năng & Công cụ",
+        "skills": "Kỹ năng",
         "experience": "Kinh nghiệm",
         "projects": "Dự án",
+        "testimonials": "Đánh giá",
         "contact": "Liên hệ",
         "resume": "Hồ sơ"
     },
@@ -33,7 +34,8 @@
     "skills": {
         "title": "Kỹ năng của tôi",
         "subtitle": "Các công nghệ tôi làm việc cùng",
-        "description": "Đây là những ngôn ngữ tôi thành thạo"
+        "description": "Đây là những ngôn ngữ tôi thành thạo",
+        "noProjectsForSkill": "Không có dự án nào cho ngôn ngữ này"
     },
 
     "experience": {
@@ -51,7 +53,8 @@
         "projects": "dự án",
         "noProjectsForSkill": "Không có dự án nào cho ngôn ngữ này",
         "using": "Toàn bộ dự án sử dụng",
-        "tech": "Công nghệ"
+        "tech": "Công nghệ",
+        "viewCode": "Xem Code"
     },
 
     "testimonials": {

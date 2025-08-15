@@ -1,90 +1,101 @@
 export const experiences = [
   {
-    id: "2026-now",
-    period: {
-      en: "2026 - Now",
-      vi: "2026 - Hiện tại"
-    },
-    phase_0: {
-        en: "Learning...",
-        vi: "Học tập..."
-    },
-    phase_1: {
-        en: "Development Phase",
-        vi: "Xây dựng..."
-    },
-    other_phase: {
-        en: "Towards Large Scale",
-        vi: "Mở rộng..."
-    },
+    id: 1,
+    phase: true,
     title: {
-      en: "BE Dev",
-      vi: "BE Dev"
+      en: "Full Stack Engineer",
+      vi: "Kỹ sư Full Stack"
     },
-    location: {
-      en: "Thanh Xuan, Ha Noi, Viet Nam",
-      vi: "Thanh Xuân, Hà Nội, Việt Nam"
+    period: {
+      en: "2024 - Present",
+      vi: "2024 - Hiện tại"
     },
-    quote_0: {
-        en: "Building the foundation for future success.",
-        vi: "Xây dựng nền tảng cho sự thành công trong tương lai."
+    workMode: {
+      en: "Cloud-based (Global)",
+      vi: "Nền tảng đám mây (Toàn cầu)"
     },
-    quote_1: {
-        en: "Currently diving deep backend development.",
-        vi: "Đào sâu vào phát triển backend, rèn kỹ năng chuyên môn."
+    infrastructure: {
+      en: "AWS/GCP Ecosystem",
+      vi: "Hệ sinh thái AWS/GCP"
     },
-    other_quote: {
-        en: "Transitioning from developer to system architect.",
-        vi: "Chuyển từ vai trò lập trình viên sang kiến trúc sư hệ thống, tầm nhìn và trách nhiệm cao hơn."
+    timezone: "UTC+7",
+    quote: {
+      en: "Architecting digital experiences across the stack",
+      vi: "Thiết kế trải nghiệm số đa nền tảng"
     },
     description: {
-      en: "Designing scalable backend systems to power future growth.",
-      vi: "Thiết kế các hệ thống backend có khả năng mở rộng để thúc đẩy tăng trưởng trong tương lai."
+      en: "Developing cloud-native applications with microservices architecture and CI/CD pipelines",
+      vi: "Phát triển ứng dụng cloud-native với kiến trúc microservices và hệ thống CI/CD"
     },
-    isExpanded: false,
+    achievements: [
+      {
+        en: "Led migration to serverless architecture (Lambda, API Gateway)",
+        vi: "Chủ trì di chuyển sang kiến trúc serverless"
+      },
+      {
+        en: "Implemented real-time features using WebSockets",
+        vi: "Triển khai tính năng real-time sử dụng WebSockets"
+      },
+      {
+        en: "Optimized React bundle size by 40%",
+        vi: "Tối ưu kích thước bundle React giảm 40%"
+      }
+    ],
+    techStack: {
+      core: ["TypeScript", "React 18", "Node.js 20"],
+      cloud: ["AWS Lambda", "CloudFront", "DynamoDB"],
+      devOps: ["GitHub Actions", "Docker", "Terraform"]
+    }
   },
   {
-    id: "2025-2026",
-    period: {
-      en: "2025 - 2026",
-      vi: "2025 - 2026"
-    },
-    phase_0: {
-        en: "Learning...",
-        vi: "Học tập..."
-    },
-    phase_1: {
-        en: "Development Phase",
-        vi: "Xây dựng..."
-    },
-    other_phase: {
-        en: "Towards Large Scale",
-        vi: "Mở rộng..."
-    },
+    id: 2,
+    phase: true,
     title: {
-      en: "Basic Web Developer",
-      vi: "Nhà phát triển Web cơ bản"
+      en: "Backend Systems Engineer",
+      vi: "Kỹ sư Hệ thống Backend"
+    },
+    period: {
+      en: "2023 - 2024",
+      vi: "2023 - 2024"
+    },
+    workMode: {
+      en: "On-premise (Data Center)",
+      vi: "Môi trường On-premise"
+    },
+    infrastructure: {
+      en: "Private Cloud Infrastructure",
+      vi: "Hạ tầng Private Cloud"
     },
     location: {
-      en: "Thanh Xuan, Ha Noi, Viet Nam",
-      vi: "Thanh Xuân, Hà Nội, Việt Nam"
+      en: "Silicon Valley HQ",
+      vi: "Trụ sở chính Silicon Valley"
     },
-    quote_0: {
-        en: "Building the foundation for future success.",
-        vi: "Xây dựng nền tảng cho sự thành công trong tương lai."
-    },
-    quote_1: {
-        en: "Currently diving deep backend development.",
-        vi: "Đào sâu vào phát triển backend, rèn kỹ năng chuyên môn."
-    },
-    other_quote: {
-        en: "Transitioning from developer to system architect.",
-        vi: "Chuyển từ vai trò lập trình viên sang kiến trúc sư hệ thống, tầm nhìn và trách nhiệm cao hơn."
+    quote: {
+      en: "Building scalable distributed systems",
+      vi: "Xây dựng hệ thống phân tán mở rộng"
     },
     description: {
-      en: "Started my programming journey through online courses, learning basic HTML, CSS, JavaScript, and the fundamentals of system development.",
-      vi: "Bắt đầu hành trình lập trình với các khóa học trực tuyến. Học HTML, CSS, JavaScript cơ bản và các nguyên tắc cơ bản của xây dựng hệ thống."
+      en: "Designed and maintained high-availability backend services handling 10K+ RPS",
+      vi: "Thiết kế và bảo trì dịch vụ backend xử lý 10K+ yêu cầu/giây"
     },
-    isExpanded: false,
-  },
+    achievements: [
+      {
+        en: "Reduced API latency by 60% through Redis caching",
+        vi: "Giảm 60% độ trễ API nhờ Redis caching"
+      },
+      {
+        en: "Implemented Kubernetes cluster for microservices",
+        vi: "Triển khai cụm Kubernetes cho microservices"
+      },
+      {
+        en: "Developed CI/CD pipeline with ArgoCD",
+        vi: "Xây dựng pipeline CI/CD với ArgoCD"
+      }
+    ],
+    techStack: {
+      core: ["Go", "Python", "gRPC"],
+      databases: ["MongoDB", "PostgreSQL", "Elasticsearch"],
+      infra: ["Kubernetes", "Istio", "Prometheus"]
+    }
+  }
 ];

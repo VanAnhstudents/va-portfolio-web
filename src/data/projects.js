@@ -13,6 +13,7 @@ export const projects = [
             en: ["React", "Tailwind CSS", "JavaScript"],
             vi: ["React", "Tailwind CSS", "JavaScript"]
         },
+        image: "./assets/images/projects/portfolio.png",
         github: "#",
         demo: "#"
     },
@@ -30,6 +31,7 @@ export const projects = [
             en: ["NodeJS", "ExpressJS", "MySQL", "JWT Authentication", "Stripe API"],
             vi: ["NodeJS", "ExpressJS", "MySQL", "Xác thực JWT", "Stripe API"]
         },
+        image: "./assets/images/projects/restfulapi-ecommerce.jpg",
         github: "#",
         demo: "#"
     }

@@ -13,6 +13,7 @@
         "skills": "Skills",
         "experience": "Experience",
         "projects": "Projects",
+        "testimonials": "Testimonials",
         "contact": "Contact",
         "resume": "Resume"
     },
@@ -33,7 +34,8 @@
     "skills": {
         "title": "My Skills",
         "subtitle": "Technologies I work with",
-        "description": "Here are the technologies I'm proficient in"
+        "description": "Here are the technologies I'm proficient in",
+        "noProjectsForSkill": "No projects found for this skill"
     },
 
     "experience": {
@@ -51,7 +53,8 @@
         "projects": "projects",
         "noProjectsForSkill": "No projects found for this skill",
         "using": "All projects using",
-        "tech": "Technologies"
+        "tech": "Technologies",
+        "viewCode": "View Code"
     },
 
     "testimonials": {
